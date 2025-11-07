@@ -1,0 +1,10 @@
+# Java roots
+com/example/gson/Gson
+com/example/gson/Gson#newBuilder()Lcom/example/gson/GsonBuilder;
+com/example/gson/JsonNull#INSTANCE
+com/example/gson/Outer$Inner
+
+# Kotlin roots
+com/example/kotl/KUtil#makePoint()Lcom/example/kotl/KPoint;
+com/example/kotl/KTop#hello(Ljava/lang/String;)Ljava/lang/String;
+com/example/kotl/KTop#getFlag()Z

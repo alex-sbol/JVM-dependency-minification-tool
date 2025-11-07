@@ -1,0 +1,6 @@
+/.gradle/
+/build/
+/libjava/build/
+/libkotlin/build/
+/.idea/
+*.iml
