@@ -4,8 +4,8 @@ A Kotlin CLI that minifies a set of JVM libraries down to only the declarations 
 
 ## Features
 - Classpath **first-wins** precedence for duplicate classes.
-- Roots file supports classes, fields, and methods (same descriptors as class files, `#` separator).
-- Recursively collects dependencies from types, generics, annotations, throws, records, sealed hierarchy, nest/enclosing metadata.
+- Roots file supports classes, fields, and methods.
+- Recursively collects dependencies from types, generics, annotations, throws.
 - Preserves annotations.
 - Trims method bodies and static initializers; emits trivial bodies.
 - Prunes Kotlin `@Metadata` using `kotlinx-metadata-jvm`.
